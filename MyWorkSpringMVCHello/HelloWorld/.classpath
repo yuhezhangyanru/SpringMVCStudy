@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.jstl_1.2.2">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="jst.web.jstl"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-aop-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-aspects-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-beans-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-context-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-context-support-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-core-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-expression-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-instrument-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-instrument-tomcat-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-jdbc-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-jms-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-messaging-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-orm-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-oxm-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-test-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-tx-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-web-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-webmvc-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-webmvc-portlet-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/spring-websocket-4.3.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/yy/Downloads/springmvcjar/spring MVC所需jar包/standard.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
