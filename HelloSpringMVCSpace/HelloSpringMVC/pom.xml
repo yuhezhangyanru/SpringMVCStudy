@@ -68,7 +68,8 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.7.0</version>
+          <!-- 2018-4-23 <version>3.7.0</version>是默认的版本，暂时屏蔽！ -->
+          <version>2.3.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -76,7 +77,12 @@
         </plugin>
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
-          <version>3.2.0</version>
+          <!-- <version>3.2.0</version>是原先的代码 -->
+          <version>2.4</version>
+            <configuration>
+                <version>3.0</version>
+            </configuration>
+             
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
