@@ -4,6 +4,6 @@ Implementation-Title: HelloSpringMVC Maven Webapp
 Implementation-Version: 0.0.1-SNAPSHOT
 Implementation-Vendor-Id: com.yiibai
 Build-Jdk: 1.7.0_45
-Built-By: yy
+Built-By: DELL
 Created-By: Maven Integration for Eclipse
 
