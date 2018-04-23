@@ -12,6 +12,15 @@
   <name>HelloSpringMVC Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+  
+  
+  <!-- Spring Boot父级依赖，有了它就是个Spring Boot项目了    解决‘程序包org.springframework.ui不存在’ -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.6.RELEASE</version>
+        <relativePath /> <!-- lookup parent from repository -->
+    </parent>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,6 +34,14 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    
+    <!-- 尝试解决报错'The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path' -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 
