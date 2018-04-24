@@ -1,4 +1,4 @@
-package com.yiibai.springmvc;
+package com.yiibai.springmvc.controllor;
 
 
 import org.springframework.stereotype.Controller;

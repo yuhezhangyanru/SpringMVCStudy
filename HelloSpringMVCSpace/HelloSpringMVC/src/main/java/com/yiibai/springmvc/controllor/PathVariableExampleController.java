@@ -1,4 +1,4 @@
-package com.yiibai.springmvc;
+package com.yiibai.springmvc.controllor;
  
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,8 +10,12 @@ public class PathVariableExampleController {
   
  
     /**
-     * @PathVariable Example:
-     *
+     *  @PathVariable示例
+     *  在Spring MVC中，可以使用@PathVariable注释将一个方法参数绑定到一个URI模板变量的值：
+     *  例如，这是一个模板的URI：
+     *  /web/fe/{sitePrefix}/{language}/document/{id}/{naturalText}     *  
+     * function：URI传入多个参数的demo，如下demo，要求在浏览器输入：
+     * http://localhost:8080/HelloSpringMVC/web/fe/default/en/document/8108/spring-mvc-for-beginners
      */
     @RequestMapping("/web/fe/{sitePrefix}/{language}/document/{id}/{naturalText}")
     public String documentView(Model model,
