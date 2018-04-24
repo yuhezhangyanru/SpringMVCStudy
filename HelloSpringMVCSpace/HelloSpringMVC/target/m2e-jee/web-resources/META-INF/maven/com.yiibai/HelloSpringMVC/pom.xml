@@ -43,13 +43,16 @@
       <version>2.5</version>
       <scope>provided</scope>
     </dependency>
-    
-    <!-- 额外添加依赖，为啥添加这个暂不明白 -->
+     
+    <!-- 暂时屏蔽 2018-4-24 去掉之后，运行就正常了
     <dependency>
-			<groupId>javax.servlet.jsp</groupId>
-			<artifactId>javax.servlet.jsp-api</artifactId>
-			<version>2.3.1</version>
-	</dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.2.1-b03</version>
+    </dependency>
+     -->
+
+
   </dependencies>
 
   <build>
