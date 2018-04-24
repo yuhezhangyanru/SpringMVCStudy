@@ -12,12 +12,32 @@
            org.springframework.web.servlet.DispatcherServlet
        </servlet-class>
        <load-on-startup>1</load-on-startup>
-   </servlet>   
+   </servlet>
+<!-- 原先默认的Servlet配置
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.runoob.test.HelloServlet</servlet-class>
+  </servlet>
+ -->
+ <!-- 2018-4-24 新加 -->
+  <servlet>  
+     <!-- 类名 -->  
+    <servlet-name>HelloServlet</servlet-name>  
+    <!-- 所在的包 -->  
+    <servlet-class>com.runoob.test.HelloServlet</servlet-class>  
+  </servlet>  
+   
     
    <servlet-mapping>
        <servlet-name>spring-mvc</servlet-name>        
        <url-pattern>/</url-pattern>
    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/servlet/HelloServlet</url-pattern>
+  </servlet-mapping>
  
     <!-- Other XML Configuration -->
    <!-- Load by Spring ContextLoaderListener -->
