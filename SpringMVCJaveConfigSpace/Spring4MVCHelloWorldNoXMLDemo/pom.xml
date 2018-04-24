@@ -10,6 +10,10 @@
 
 	<properties>
 		<springframework.version>4.0.6.RELEASE</springframework.version>
+	 
+		<springframework.version>4.0.6.RELEASE</springframework.version>
+		<hibernate.validator.version>5.1.2.Final</hibernate.validator.version>
+		<javax.validation.version>1.1.0.Final</javax.validation.version>
 	</properties>
 
 	<dependencies>
@@ -34,6 +38,19 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+		
+		<!-- jsr303 validation dependencies-->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>${javax.validation.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate.validator.version}</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
@@ -41,6 +58,7 @@
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
+					<!-- 意这里是 maven-war-plugin 插件声明。由于我们使用的是全注解配置，我们甚至不包括在 web.xml 中，所以我们需要配置这个插件，以避免Maven构建war包失败 -->
 					<artifactId>maven-war-plugin</artifactId>
 					<version>2.4</version>
 					<configuration>
