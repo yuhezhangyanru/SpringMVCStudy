@@ -6,6 +6,6 @@
 <title>Spring4 MVC -HelloWorld</title>
 </head>
 <body>
-    <h1>${greeting}</h1>
+    <h1>greeting的参数值为：${greeting}</h1>
 </body>
 </html>

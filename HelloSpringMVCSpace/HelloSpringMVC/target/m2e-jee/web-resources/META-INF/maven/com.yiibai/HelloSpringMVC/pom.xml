@@ -43,6 +43,16 @@
       <version>2.5</version>
       <scope>provided</scope>
     </dependency>
+     
+    <!-- 暂时屏蔽 2018-4-24 去掉之后，运行就正常了
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.2.1-b03</version>
+    </dependency>
+     -->
+
+
   </dependencies>
 
   <build>
