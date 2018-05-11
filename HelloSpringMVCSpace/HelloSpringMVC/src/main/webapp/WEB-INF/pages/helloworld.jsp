@@ -39,7 +39,16 @@
     console.log("js的对象测试,p1.name="+p1.name+",p1.age="+p1.age);
     var test = person.age+ person.name;//相当于字符串拼接
     console.log("测试字符串拼接 person.name+person.age="+test);
- 
+    //对象的一些方法，判断是否有某个属性，继承获得的属性也算
+    var hasName= 'name' in person;
+    var hasName111= 'name111' in person;
+    var hastoString= 'toString' in person;
+    console.log("会否有属性 name?"+hasName+",是否有属性name111？"
+    +hasName111+",是否有toString属性?"+hastoString); //结果分别输出 true, false,true
+    console.log("会否有属性 name?"+person.hasOwnProperty('name')+",是否有属性name111？"
+    +person.hasOwnProperty('name111')
+    +",是否有toString属性?"+person.hasOwnProperty('toString')); //判断是否本身拥有某个属性
+       
  
     /**************************JS对象的定义方式：方法2，带构造函数的声明方式*****************************/
     //声明一个带构造函数的对象类型
@@ -130,8 +139,21 @@
      console.log("转为小写 toLowerCase()="+s.toLowerCase());
      console.log("indexOf="+s.toLowerCase().indexOf("hello"));
      console.log("substring="+s.substring(0,4));
-      console.log("substring(18)="+s.substring(18));
+     console.log("substring(18)="+s.substring(18));
     
+    
+    
+     /*******************************************
+     js的数组demo
+     ********************************************/
+     var array1=['A','b','c'];
+     console.log("array1="+array1);
+     array1[5]='e';
+     console.log("after add one,array1="+array1);
+     array1.sort();
+     console.log("after sort(),array1="+array1);
+     array1.reverse();
+     console.log("after reverse(),array1="+array1);
     </script>
 </body>
 </html>

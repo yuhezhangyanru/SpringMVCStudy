@@ -2,10 +2,11 @@
 在这个项目中，SpringMVC中学习的一些记录，先学习jsp语法
 
 项目启动后，默认浏览器输入访问：此外还有几个controller定义几个类访问。
-http://localhost:8080/HelloSpringMVC/
+## http://localhost:8080/HelloSpringMVC/
 仅仅作为HelloWorld的demo使用，暂无后续学习内容的更新，只是用来帮助说明定义URI向服务器传参的方法。
 
 基本HelloWorlddemo-jsp定义从服务器回参的方法：
+在2018-5-8的时候修改扩充,这个页面已经变成了js基础语法的学习demo。
 http://localhost:8080/HelloSpringMVC/hello
 
 重定向到HelloWorld的demo:
